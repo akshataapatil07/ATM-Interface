@@ -10,7 +10,13 @@ public static void main(String[] args)
            do {
               playGame();  
               System.out.println("Would you like to play again?Y/N");
-              playAgain = sc1.nextBoolean();  
+               string choice=cs1.nextline();
+                  if(choice.trim().toUpperCase().equals(anObject:"Y")){
+                  playAgain=true;
+                  system.out.println(x:"Let's Play again. I'll pick a number between");
+                  }
+                  else{
+              playAgain = false;
               } while (playAgain);
           System.out.println("Thanks for playing.Goodbye.");
         }         
